@@ -21,7 +21,7 @@ export function SouthTerminal(props) {
   })
 
   return (
-    <group {...props} dispose={null} position={[ 16000, -5000, -10000 ]}>
+    <group {...props} dispose={null} >
       <group scale={1.0} userData={{ name: "LOD_Group_3dsMax" }}>
         <group userData={{ name: "INSTALOD" }}>
           <mesh

@@ -24,7 +24,7 @@ export default function Experience()
            <meshStandardMaterial color={ '#aa8877' } />
         </mesh>
 
-        <SouthTerminal />
+        <SouthTerminal position={[ 16000, -5000, -10000 ]}/>
 
     </>
 }
