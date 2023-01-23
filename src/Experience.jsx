@@ -25,6 +25,5 @@ export default function Experience()
         </mesh>
 
         <SouthTerminal position={[ 16000, -5000, -10000 ]}/>
-
     </>
 }
