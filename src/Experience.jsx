@@ -1,31 +1,30 @@
+import { Sky } from '@react-three/drei'
 import { OrbitControls } from '@react-three/drei'
+import { Perf } from 'r3f-perf'
+import  { SouthTerminal } from './SouthTerminal.jsx'
 import Lights from './Lights.jsx'
-import Hamburger from './Hamburger.jsx'
 
 export default function Experience()
 {
     return <>
 
+        <Perf position="top-left" />
+
         <OrbitControls makeDefault />
+
+        {/* <directionalLight castShadow position={ [ 1, 2, 3 ] } intensity={ 1.5 } />
+        <ambientLight intensity={ 0.5 } /> */}
 
         <Lights />
 
-        <mesh castShadow position-x={ - 2 }>
-            <sphereGeometry />
-            <meshStandardMaterial color="orange" />
+
+        <Sky distance={1000000} />
+        <mesh scale={ 100000 } rotation={[ -Math.PI * 0.5, 0, 0 ]} position={[ 0, -2000, 3000 ]} >
+           <planeGeometry/>
+           <meshStandardMaterial color={ '#aa8877' } />
         </mesh>
 
-        <mesh castShadow position-x={ 2 } scale={ 1.5 }>
-            <boxGeometry />
-            <meshStandardMaterial color="mediumpurple" />
-        </mesh>
-
-        <mesh receiveShadow position-y={ - 1 } rotation-x={ - Math.PI * 0.5 } scale={ 10 }>
-            <planeGeometry />
-            <meshStandardMaterial color="greenyellow" />
-        </mesh>
-
-        <Hamburger scale={ 0.4 } position={[ 0, -1, -5 ]}/>
+        <SouthTerminal />
 
     </>
 }
