@@ -34,7 +34,7 @@ export default function Experience()
         <Sky distance={1000000} />
         <mesh scale={ 100000 } rotation={[ -Math.PI * 0.5, 0, 0 ]} position={[ 0, -2000, 3000 ]} >
            <planeGeometry/>
-           <meshStandardMaterial color={ '#aa8877' } />
+           <mesh onClick={(e) => console.log(e.eventObject.userData.name)}StandardMaterial color={ '#aa8877' } />
         </mesh>
 
         {/** Buildings */}

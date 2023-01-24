@@ -24,7 +24,7 @@ export function SouthTerminal(props) {
     <group {...props} dispose={null} >
       <group scale={1.0} userData={{ name: "LOD_Group_3dsMax" }}>
         <group userData={{ name: "INSTALOD" }}>
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.ART_WALL_INSTALOD.geometry}
@@ -34,7 +34,7 @@ export function SouthTerminal(props) {
             scale={1.5}
             userData={{ name: "ART WALL_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL_INSTALOD.geometry}
@@ -43,7 +43,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Columns_INSTALOD.geometry}
@@ -53,7 +53,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "Columns_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={
@@ -67,7 +67,7 @@ export function SouthTerminal(props) {
               name: "Assembled Stair Stair [2175640]_[2175647]_INSTALOD",
             }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.BATHROOM_WALLS_INSTALOD.geometry}
@@ -76,7 +76,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "BATHROOM WALLS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.BLACK_WALL_INSTALOD.geometry}
@@ -85,7 +85,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "BLACK WALL_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.BLUE_TERRAZO_FLOOR_INSTALOD.geometry}
@@ -94,7 +94,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "BLUE TERRAZO FLOOR_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.BRICK_AND_MARBLE_WALL_INSTALOD.geometry}
@@ -103,7 +103,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "BRICK AND MARBLE WALL_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={
@@ -118,7 +118,7 @@ export function SouthTerminal(props) {
               name: "Cast-In-Place Stair Stair [1150355]_[1150356]_INSTALOD",
             }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.CEILINGS_INSTALOD.geometry}
@@ -128,7 +128,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "CEILINGS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL001_INSTALOD.geometry}
@@ -137,7 +137,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL001_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL002_INSTALOD.geometry}
@@ -146,7 +146,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL002_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL003_INSTALOD.geometry}
@@ -155,7 +155,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL003_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL004_INSTALOD.geometry}
@@ -164,7 +164,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL004_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Curtain_Panels_INSTALOD.geometry}
@@ -174,7 +174,7 @@ export function SouthTerminal(props) {
             scale={[12.00000095, 12, 12.00000095]}
             userData={{ name: "Curtain Panels_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL005_INSTALOD.geometry}
@@ -183,7 +183,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL005_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.ESCALATOR_ART_INSTALOD.geometry}
@@ -192,7 +192,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "ESCALATOR ART_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL006_INSTALOD.geometry}
@@ -201,7 +201,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL006_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL007_INSTALOD.geometry}
@@ -210,7 +210,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL007_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.FALSE_CEILING_INSTALOD.geometry}
@@ -219,7 +219,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "FALSE CEILING_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL008_INSTALOD.geometry}
@@ -228,7 +228,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL008_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL009_INSTALOD.geometry}
@@ -237,7 +237,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL009_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL010_INSTALOD.geometry}
@@ -246,7 +246,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL010_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL011_INSTALOD.geometry}
@@ -255,7 +255,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL011_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL012_INSTALOD.geometry}
@@ -264,7 +264,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL012_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL013_INSTALOD.geometry}
@@ -273,7 +273,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL013_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL014_INSTALOD.geometry}
@@ -282,7 +282,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL014_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL015_INSTALOD.geometry}
@@ -291,7 +291,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL015_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL016_INSTALOD.geometry}
@@ -300,7 +300,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL016_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL017_INSTALOD.geometry}
@@ -309,7 +309,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL017_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL018_INSTALOD.geometry}
@@ -318,7 +318,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL018_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL019_INSTALOD.geometry}
@@ -327,7 +327,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL019_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL020_INSTALOD.geometry}
@@ -336,7 +336,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL020_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL021_INSTALOD.geometry}
@@ -345,7 +345,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL021_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL022_INSTALOD.geometry}
@@ -354,7 +354,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL022_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL023_INSTALOD.geometry}
@@ -363,7 +363,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL023_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Floor_Object001_INSTALOD.geometry}
@@ -372,7 +372,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0, Math.PI / 2]}
             userData={{ name: "Floor_Object001_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL024_INSTALOD.geometry}
@@ -381,7 +381,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL024_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL025_INSTALOD.geometry}
@@ -390,7 +390,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL025_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL026_INSTALOD.geometry}
@@ -399,7 +399,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL026_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL027_INSTALOD.geometry}
@@ -408,7 +408,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL027_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL028_INSTALOD.geometry}
@@ -417,7 +417,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL028_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL029_INSTALOD.geometry}
@@ -426,7 +426,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL029_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL030_INSTALOD.geometry}
@@ -435,7 +435,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL030_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL031_INSTALOD.geometry}
@@ -444,7 +444,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL031_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL032_INSTALOD.geometry}
@@ -453,7 +453,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL032_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL033_INSTALOD.geometry}
@@ -462,7 +462,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL033_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL034_INSTALOD.geometry}
@@ -471,7 +471,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL034_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL035_INSTALOD.geometry}
@@ -480,7 +480,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL035_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL036_INSTALOD.geometry}
@@ -489,7 +489,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL036_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL037_INSTALOD.geometry}
@@ -498,7 +498,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL037_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL038_INSTALOD.geometry}
@@ -507,7 +507,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL038_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL039_INSTALOD.geometry}
@@ -516,7 +516,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL039_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Floor_Object002_INSTALOD.geometry}
@@ -525,7 +525,7 @@ export function SouthTerminal(props) {
             rotation={[Math.PI, 8e-8, -Math.PI / 2]}
             userData={{ name: "Floor_Object002_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL040_INSTALOD.geometry}
@@ -534,7 +534,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL040_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL041_INSTALOD.geometry}
@@ -543,7 +543,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL041_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL042_INSTALOD.geometry}
@@ -552,7 +552,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL042_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL043_INSTALOD.geometry}
@@ -561,7 +561,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL043_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL044_INSTALOD.geometry}
@@ -570,7 +570,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL044_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL045_INSTALOD.geometry}
@@ -579,7 +579,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL045_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL046_INSTALOD.geometry}
@@ -588,7 +588,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL046_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL047_INSTALOD.geometry}
@@ -597,7 +597,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL047_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL048_INSTALOD.geometry}
@@ -606,7 +606,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL048_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL049_INSTALOD.geometry}
@@ -615,7 +615,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL049_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL050_INSTALOD.geometry}
@@ -624,7 +624,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL050_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL051_INSTALOD.geometry}
@@ -633,7 +633,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL051_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL052_INSTALOD.geometry}
@@ -642,7 +642,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL052_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.HARD_SEAT_UNDER_STAIRS_INSTALOD.geometry}
@@ -651,7 +651,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "HARD SEAT UNDER STAIRS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL053_INSTALOD.geometry}
@@ -660,7 +660,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL053_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL054_INSTALOD.geometry}
@@ -669,7 +669,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL054_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.IMD_3_SouthSatelliteRoof_INSTALOD.geometry}
@@ -679,7 +679,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "IMD_3_SouthSatelliteRoof_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL055_INSTALOD.geometry}
@@ -688,7 +688,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL055_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={
@@ -700,7 +700,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "IMD_3_SouthSatelliteRoofLowerlevel_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL056_INSTALOD.geometry}
@@ -709,7 +709,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL056_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL057_INSTALOD.geometry}
@@ -718,7 +718,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL057_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Floor_Object003_INSTALOD.geometry}
@@ -727,7 +727,7 @@ export function SouthTerminal(props) {
             rotation={[-Math.PI / 2, -Math.PI / 2, 0]}
             userData={{ name: "Floor_Object003_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL058_INSTALOD.geometry}
@@ -736,7 +736,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL058_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Landings_INSTALOD.geometry}
@@ -746,7 +746,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "Landings_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.LIGHT_LINE_RESTAURANT_INSTALOD.geometry}
@@ -755,7 +755,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "LIGHT LINE RESTAURANT_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL059_INSTALOD.geometry}
@@ -764,7 +764,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL059_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL060_INSTALOD.geometry}
@@ -773,7 +773,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL060_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL061_INSTALOD.geometry}
@@ -782,7 +782,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL061_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.LOWER_LEVELS_FLOORS_INSTALOD.geometry}
@@ -792,7 +792,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "LOWER LEVELS FLOORS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL062_INSTALOD.geometry}
@@ -801,7 +801,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL062_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL063_INSTALOD.geometry}
@@ -810,7 +810,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL063_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL064_INSTALOD.geometry}
@@ -819,7 +819,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL064_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL065_INSTALOD.geometry}
@@ -828,7 +828,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL065_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL066_INSTALOD.geometry}
@@ -837,7 +837,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL066_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL067_INSTALOD.geometry}
@@ -846,7 +846,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL067_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL068_INSTALOD.geometry}
@@ -855,7 +855,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL068_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL069_INSTALOD.geometry}
@@ -864,7 +864,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL069_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL070_INSTALOD.geometry}
@@ -873,7 +873,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL070_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL071_INSTALOD.geometry}
@@ -882,7 +882,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL071_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL072_INSTALOD.geometry}
@@ -891,7 +891,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL072_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL073_INSTALOD.geometry}
@@ -900,7 +900,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL073_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL074_INSTALOD.geometry}
@@ -909,7 +909,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL074_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL075_INSTALOD.geometry}
@@ -918,7 +918,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL075_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL076_INSTALOD.geometry}
@@ -927,7 +927,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL076_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL077_INSTALOD.geometry}
@@ -936,7 +936,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL077_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL078_INSTALOD.geometry}
@@ -945,7 +945,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL078_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL079_INSTALOD.geometry}
@@ -954,7 +954,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL079_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL080_INSTALOD.geometry}
@@ -963,7 +963,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL080_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL081_INSTALOD.geometry}
@@ -972,7 +972,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL081_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL082_INSTALOD.geometry}
@@ -981,7 +981,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL082_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL083_INSTALOD.geometry}
@@ -990,7 +990,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL083_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL084_INSTALOD.geometry}
@@ -999,7 +999,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL084_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL085_INSTALOD.geometry}
@@ -1008,7 +1008,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL085_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL086_INSTALOD.geometry}
@@ -1017,7 +1017,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL086_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL087_INSTALOD.geometry}
@@ -1026,7 +1026,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL087_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL088_INSTALOD.geometry}
@@ -1035,7 +1035,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL088_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL089_INSTALOD.geometry}
@@ -1044,7 +1044,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL089_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.LOWER_LEVELS_WALLS_INSTALOD.geometry}
@@ -1054,7 +1054,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "LOWER LEVELS WALLS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object002_INSTALOD.geometry}
@@ -1063,7 +1063,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object002_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL090_INSTALOD.geometry}
@@ -1072,7 +1072,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL090_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object004_INSTALOD.geometry}
@@ -1081,7 +1081,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object004_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object006_INSTALOD.geometry}
@@ -1090,7 +1090,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object006_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL091_INSTALOD.geometry}
@@ -1099,7 +1099,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18169999, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL091_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object009_INSTALOD.geometry}
@@ -1108,7 +1108,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object009_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object011_INSTALOD.geometry}
@@ -1117,7 +1117,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object011_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL097_INSTALOD.geometry}
@@ -1126,7 +1126,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL097_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object013_INSTALOD.geometry}
@@ -1135,7 +1135,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object013_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL098_INSTALOD.geometry}
@@ -1144,7 +1144,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL098_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object015_INSTALOD.geometry}
@@ -1153,7 +1153,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object015_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL099_INSTALOD.geometry}
@@ -1162,7 +1162,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL099_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object017_INSTALOD.geometry}
@@ -1171,7 +1171,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object017_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL100_INSTALOD.geometry}
@@ -1180,7 +1180,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL100_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL101_INSTALOD.geometry}
@@ -1189,7 +1189,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL101_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL102_INSTALOD.geometry}
@@ -1198,7 +1198,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL102_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL103_INSTALOD.geometry}
@@ -1207,7 +1207,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL103_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL104_INSTALOD.geometry}
@@ -1216,7 +1216,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL104_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL105_INSTALOD.geometry}
@@ -1225,7 +1225,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL105_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL106_INSTALOD.geometry}
@@ -1234,7 +1234,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL106_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL107_INSTALOD.geometry}
@@ -1243,7 +1243,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL107_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL108_INSTALOD.geometry}
@@ -1252,7 +1252,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL108_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL109_INSTALOD.geometry}
@@ -1261,7 +1261,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL109_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL110_INSTALOD.geometry}
@@ -1270,7 +1270,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL110_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL111_INSTALOD.geometry}
@@ -1279,7 +1279,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL111_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL112_INSTALOD.geometry}
@@ -1288,7 +1288,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL112_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL113_INSTALOD.geometry}
@@ -1297,7 +1297,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL113_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL114_INSTALOD.geometry}
@@ -1306,7 +1306,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL114_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL115_INSTALOD.geometry}
@@ -1315,7 +1315,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL115_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL116_INSTALOD.geometry}
@@ -1324,7 +1324,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL116_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL117_INSTALOD.geometry}
@@ -1333,7 +1333,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL117_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL118_INSTALOD.geometry}
@@ -1342,7 +1342,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL118_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={
@@ -1357,7 +1357,7 @@ export function SouthTerminal(props) {
               name: "Railing Guardrail - Pipe [2353423]_[2096948]_INSTALOD",
             }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL119_INSTALOD.geometry}
@@ -1366,7 +1366,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL119_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL120_INSTALOD.geometry}
@@ -1375,7 +1375,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL120_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Stairs_INSTALOD.geometry}
@@ -1385,7 +1385,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "Stairs_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL121_INSTALOD.geometry}
@@ -1394,7 +1394,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL121_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL122_INSTALOD.geometry}
@@ -1403,7 +1403,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL122_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL123_INSTALOD.geometry}
@@ -1412,7 +1412,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL123_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL124_INSTALOD.geometry}
@@ -1421,7 +1421,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL124_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL125_INSTALOD.geometry}
@@ -1430,7 +1430,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL125_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL126_INSTALOD.geometry}
@@ -1439,7 +1439,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL126_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL127_INSTALOD.geometry}
@@ -1448,7 +1448,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL127_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Structural_Columns_INSTALOD.geometry}
@@ -1458,7 +1458,7 @@ export function SouthTerminal(props) {
             scale={[12.00000286, 12, 12.00000286]}
             userData={{ name: "Structural Columns_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL128_INSTALOD.geometry}
@@ -1467,7 +1467,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL128_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL129_INSTALOD.geometry}
@@ -1476,7 +1476,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL129_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL130_INSTALOD.geometry}
@@ -1485,7 +1485,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL130_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL131_INSTALOD.geometry}
@@ -1494,7 +1494,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL131_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL132_INSTALOD.geometry}
@@ -1503,7 +1503,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL132_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL133_INSTALOD.geometry}
@@ -1512,7 +1512,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL133_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL134_INSTALOD.geometry}
@@ -1521,7 +1521,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL134_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL135_INSTALOD.geometry}
@@ -1530,7 +1530,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL135_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL136_INSTALOD.geometry}
@@ -1539,7 +1539,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL136_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL137_INSTALOD.geometry}
@@ -1548,7 +1548,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL137_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL138_INSTALOD.geometry}
@@ -1557,7 +1557,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL138_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL139_INSTALOD.geometry}
@@ -1566,7 +1566,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL139_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL140_INSTALOD.geometry}
@@ -1575,7 +1575,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL140_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL141_INSTALOD.geometry}
@@ -1584,7 +1584,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL141_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL142_INSTALOD.geometry}
@@ -1593,7 +1593,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL142_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL143_INSTALOD.geometry}
@@ -1602,7 +1602,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL143_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL144_INSTALOD.geometry}
@@ -1611,7 +1611,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL144_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL145_INSTALOD.geometry}
@@ -1620,7 +1620,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL145_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL146_INSTALOD.geometry}
@@ -1629,7 +1629,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL146_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL147_INSTALOD.geometry}
@@ -1638,7 +1638,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL147_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL148_INSTALOD.geometry}
@@ -1647,7 +1647,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL148_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL149_INSTALOD.geometry}
@@ -1656,7 +1656,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL149_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL150_INSTALOD.geometry}
@@ -1665,7 +1665,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL150_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL151_INSTALOD.geometry}
@@ -1674,7 +1674,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL151_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL152_INSTALOD.geometry}
@@ -1683,7 +1683,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL152_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL153_INSTALOD.geometry}
@@ -1692,7 +1692,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL153_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL154_INSTALOD.geometry}
@@ -1701,7 +1701,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL154_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL155_INSTALOD.geometry}
@@ -1710,7 +1710,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL155_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL156_INSTALOD.geometry}
@@ -1719,7 +1719,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL156_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL157_INSTALOD.geometry}
@@ -1728,7 +1728,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL157_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL158_INSTALOD.geometry}
@@ -1737,7 +1737,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL158_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL159_INSTALOD.geometry}
@@ -1746,7 +1746,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL159_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL160_INSTALOD.geometry}
@@ -1755,7 +1755,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL160_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL161_INSTALOD.geometry}
@@ -1764,7 +1764,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL161_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL162_INSTALOD.geometry}
@@ -1773,7 +1773,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL162_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL163_INSTALOD.geometry}
@@ -1782,7 +1782,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL163_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL164_INSTALOD.geometry}
@@ -1791,7 +1791,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL164_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL165_INSTALOD.geometry}
@@ -1800,7 +1800,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL165_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL166_INSTALOD.geometry}
@@ -1809,7 +1809,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL166_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL167_INSTALOD.geometry}
@@ -1818,7 +1818,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL167_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL168_INSTALOD.geometry}
@@ -1827,7 +1827,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL168_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL169_INSTALOD.geometry}
@@ -1836,7 +1836,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL169_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL170_INSTALOD.geometry}
@@ -1845,7 +1845,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL170_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL171_INSTALOD.geometry}
@@ -1854,7 +1854,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL171_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL172_INSTALOD.geometry}
@@ -1863,7 +1863,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL172_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL173_INSTALOD.geometry}
@@ -1872,7 +1872,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL173_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL174_INSTALOD.geometry}
@@ -1881,7 +1881,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL174_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL175_INSTALOD.geometry}
@@ -1890,7 +1890,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL175_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL202_INSTALOD.geometry}
@@ -1899,7 +1899,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL202_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL176_INSTALOD.geometry}
@@ -1908,7 +1908,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL176_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL177_INSTALOD.geometry}
@@ -1917,7 +1917,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL177_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL204_INSTALOD.geometry}
@@ -1926,7 +1926,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL204_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL178_INSTALOD.geometry}
@@ -1935,7 +1935,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL178_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL212_INSTALOD.geometry}
@@ -1944,7 +1944,7 @@ export function SouthTerminal(props) {
             scale={[1, 2.27399993, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL212_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL179_INSTALOD.geometry}
@@ -1953,7 +1953,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL179_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL180_INSTALOD.geometry}
@@ -1962,7 +1962,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL180_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL214_INSTALOD.geometry}
@@ -1971,7 +1971,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL214_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL181_INSTALOD.geometry}
@@ -1980,7 +1980,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL181_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL182_INSTALOD.geometry}
@@ -1989,7 +1989,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL182_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL216_INSTALOD.geometry}
@@ -1998,7 +1998,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL216_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL183_INSTALOD.geometry}
@@ -2007,7 +2007,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL183_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL218_INSTALOD.geometry}
@@ -2016,7 +2016,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL218_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL189_INSTALOD.geometry}
@@ -2025,7 +2025,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.34899998, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL189_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL195_INSTALOD.geometry}
@@ -2034,7 +2034,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL195_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL220_INSTALOD.geometry}
@@ -2043,7 +2043,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL220_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Supports_INSTALOD.geometry}
@@ -2053,7 +2053,7 @@ export function SouthTerminal(props) {
             scale={[12.00000095, 12, 12.00000095]}
             userData={{ name: "Supports_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL196_INSTALOD.geometry}
@@ -2062,7 +2062,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL196_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL222_INSTALOD.geometry}
@@ -2071,7 +2071,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL222_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL197_INSTALOD.geometry}
@@ -2080,7 +2080,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL197_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL198_INSTALOD.geometry}
@@ -2089,7 +2089,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL198_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL224_INSTALOD.geometry}
@@ -2098,7 +2098,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.55244696, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL224_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL199_INSTALOD.geometry}
@@ -2107,7 +2107,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL199_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL226_INSTALOD.geometry}
@@ -2116,7 +2116,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL226_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL200_INSTALOD.geometry}
@@ -2125,7 +2125,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL200_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL201_INSTALOD.geometry}
@@ -2134,7 +2134,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.34899998, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL201_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL228_INSTALOD.geometry}
@@ -2143,7 +2143,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL228_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL203_INSTALOD.geometry}
@@ -2152,7 +2152,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL203_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL205_INSTALOD.geometry}
@@ -2161,7 +2161,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL205_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL213_INSTALOD.geometry}
@@ -2170,7 +2170,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL213_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL215_INSTALOD.geometry}
@@ -2179,7 +2179,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL215_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL217_INSTALOD.geometry}
@@ -2188,7 +2188,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL217_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL219_INSTALOD.geometry}
@@ -2197,7 +2197,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL219_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.WALLS_45_DEGREES_INSTALOD.geometry}
@@ -2207,7 +2207,7 @@ export function SouthTerminal(props) {
             scale={[-1, -1, -0.99999994]}
             userData={{ name: "WALLS 45 DEGREES_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL221_INSTALOD.geometry}
@@ -2216,7 +2216,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL221_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL223_INSTALOD.geometry}
@@ -2225,7 +2225,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL223_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL225_INSTALOD.geometry}
@@ -2234,7 +2234,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL225_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL248_INSTALOD.geometry}
@@ -2243,7 +2243,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.55400002, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL248_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL227_INSTALOD.geometry}
@@ -2252,7 +2252,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.18299997, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL227_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_BOARDING_LEVEL240_INSTALOD.geometry}
@@ -2261,7 +2261,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.55400002, 1]}
             userData={{ name: "COLUMNS BOARDING LEVEL240_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.COLUMNS_LOWER_LEVELS_INSTALOD.geometry}
@@ -2270,7 +2270,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.16922998, 1]}
             userData={{ name: "COLUMNS LOWER LEVELS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Doors_INSTALOD.geometry}
@@ -2280,7 +2280,7 @@ export function SouthTerminal(props) {
             scale={[11.99999905, 12, 11.99999905]}
             userData={{ name: "Doors_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.WALLS_INSTALOD.geometry}
@@ -2290,7 +2290,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "WALLS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.WHITE_TERRAZO_FLOOR_INSTALOD.geometry}
@@ -2300,7 +2300,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "WHITE TERRAZO FLOOR_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Windows_INSTALOD.geometry}
@@ -2310,7 +2310,7 @@ export function SouthTerminal(props) {
             scale={12}
             userData={{ name: "Windows_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.WOOD_FLOOR_INSTALOD.geometry}
@@ -2319,7 +2319,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "WOOD FLOOR_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.DUTY_FREE_STORE_1_INSTALOD.geometry}
@@ -2328,7 +2328,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "DUTY FREE STORE 1_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.DUTY_FREE_STORE_2_INSTALOD.geometry}
@@ -2338,7 +2338,7 @@ export function SouthTerminal(props) {
             scale={-1}
             userData={{ name: "DUTY FREE STORE 2_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.ELECTRIC_STAIRS_INSTALOD.geometry}
@@ -2348,7 +2348,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "ELECTRIC STAIRS_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.GRAY_TERRAZO_INSTALOD.geometry}
@@ -2357,7 +2357,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "GRAY TERRAZO_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.GLASS_Railings_INSTALOD.geometry}
@@ -2367,7 +2367,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "GLASS Railings_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Curtain_Wall_Mullions_INSTALOD.geometry}
@@ -2377,7 +2377,7 @@ export function SouthTerminal(props) {
             scale={[12, 11.99999809, 11.99999809]}
             userData={{ name: "Curtain Wall Mullions_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.METRO_SCREEN_INSTALOD.geometry}
@@ -2386,7 +2386,7 @@ export function SouthTerminal(props) {
             rotation={[0, 0.20542526, 0]}
             userData={{ name: "METRO SCREEN_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object001_INSTALOD.geometry}
@@ -2395,7 +2395,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object001_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object003_INSTALOD.geometry}
@@ -2404,7 +2404,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object003_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object005_INSTALOD.geometry}
@@ -2413,7 +2413,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object005_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object008_INSTALOD.geometry}
@@ -2422,7 +2422,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object008_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object010_INSTALOD.geometry}
@@ -2431,7 +2431,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object010_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object012_INSTALOD.geometry}
@@ -2440,7 +2440,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object012_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object014_INSTALOD.geometry}
@@ -2449,7 +2449,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object014_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object016_INSTALOD.geometry}
@@ -2458,7 +2458,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object016_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Object018_INSTALOD.geometry}
@@ -2467,7 +2467,7 @@ export function SouthTerminal(props) {
             scale={[1, 1.27528906, 1]}
             userData={{ name: "Object018_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.RETAIL_GATE001_INSTALOD.geometry}
@@ -2476,7 +2476,7 @@ export function SouthTerminal(props) {
             rotation={[-Math.PI, 0.29422775, -Math.PI]}
             userData={{ name: "RETAIL GATE001_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Runs_INSTALOD.geometry}
@@ -2486,7 +2486,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "Runs_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.SEA_LOGO_INSTALOD.geometry}
@@ -2496,7 +2496,7 @@ export function SouthTerminal(props) {
             scale={0.62905103}
             userData={{ name: "SEA LOGO_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.SEATTLE_BLACK_AND_WHITE_INSTALOD.geometry}
@@ -2505,7 +2505,7 @@ export function SouthTerminal(props) {
             rotation={[Math.PI / 2, 2e-8, 2.93616725]}
             userData={{ name: "SEATTLE BLACK AND WHITE_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Specialty_Equipment_INSTALOD.geometry}
@@ -2515,7 +2515,7 @@ export function SouthTerminal(props) {
             scale={[12.00000095, 12, 12.00000095]}
             userData={{ name: "Specialty Equipment_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Top_Rails_INSTALOD.geometry}
@@ -2525,7 +2525,7 @@ export function SouthTerminal(props) {
             scale={[12.00000191, 12, 12.00000191]}
             userData={{ name: "Top Rails_INSTALOD" }}
           />
-          <mesh
+          <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
             castShadow
             receiveShadow
             geometry={nodes.Handrails_INSTALOD.geometry}
@@ -2537,7 +2537,7 @@ export function SouthTerminal(props) {
           />
         </group>
       </group>
-      <mesh
+      <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
         geometry={nodes.Generic_Models.geometry}
