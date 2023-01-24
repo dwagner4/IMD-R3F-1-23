@@ -2465,7 +2465,7 @@ export function MainTerminal(props) {
         scale={[0.01, 0.01, 0.01000001]}
         userData={{ name: "Door017_INSTALOD" }}
       />
-      <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
+      {/* <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
         geometry={
@@ -2476,7 +2476,7 @@ export function MainTerminal(props) {
         rotation={[0, 0.00068273, 0]}
         scale={[0.01, 0.01000001, 0.01]}
         userData={{ name: "IMD_3_MainTerminal_ShellExteriorCasing3_INSTALOD" }}
-      />
+      /> */}
       <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
@@ -5611,7 +5611,7 @@ export function MainTerminal(props) {
         scale={0.01000001}
         userData={{ name: "Line022_INSTALOD" }}
       />
-      <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
+      {/* <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
         geometry={nodes.Line023_INSTALOD.geometry}
@@ -5620,7 +5620,7 @@ export function MainTerminal(props) {
         rotation={[0, -0.02443457, 0]}
         scale={0.01000001}
         userData={{ name: "Line023_INSTALOD" }}
-      />
+      /> */}
       <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
@@ -6513,7 +6513,7 @@ export function MainTerminal(props) {
         scale={0.0254}
         userData={{ name: "Group_2719_INSTALOD" }}
       />
-      <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
+      {/* <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
         geometry={nodes.Group_2720_INSTALOD.geometry}
@@ -6522,7 +6522,7 @@ export function MainTerminal(props) {
         rotation={[0, -0.80893343, 0]}
         scale={0.0254}
         userData={{ name: "Group_2720_INSTALOD" }}
-      />
+      /> */}
       <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
@@ -6613,7 +6613,7 @@ export function MainTerminal(props) {
         scale={0.0254}
         userData={{ name: "Group_2709_INSTALOD" }}
       />
-      <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
+      {/* <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
         geometry={nodes.Group_2711_INSTALOD.geometry}
@@ -6622,7 +6622,7 @@ export function MainTerminal(props) {
         rotation={[0, -0.80893343, 0]}
         scale={0.0254}
         userData={{ name: "Group_2711_INSTALOD" }}
-      />
+      /> */}
       <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
@@ -7993,7 +7993,7 @@ export function MainTerminal(props) {
         scale={0.0254}
         userData={{ name: "DogHouse_003_INSTALOD" }}
       />
-      <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
+      {/* <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow
         geometry={nodes.IMD_3_AirportFloor7_INSTALOD.geometry}
@@ -8002,7 +8002,7 @@ export function MainTerminal(props) {
         rotation={[0, -0.80893343, 0]}
         scale={0.0254}
         userData={{ name: "IMD_3_AirportFloor7_INSTALOD" }}
-      />
+      /> */}
       <mesh onClick={(e) => console.log(e.eventObject.userData.name)}
         castShadow
         receiveShadow

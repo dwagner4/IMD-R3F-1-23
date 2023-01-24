@@ -8,6 +8,7 @@ import Lights from './Lights.jsx'
 import  { SouthTerminal } from './SouthTerminal.jsx'
 import { ParkingGarage } from './ParkingGarage.jsx'
 import { MainTerminal } from './MainTerminal.jsx'
+import { AirportTopo } from './AirportTopo.jsx'
 
 
 export default function Experience()
@@ -19,6 +20,7 @@ export default function Experience()
                 'SouthTerminal', 
                 'ParkingGarage',
                 'MainTerminal',
+                'topography',
             ]
         } 
     })
@@ -38,10 +40,15 @@ export default function Experience()
         </mesh>
 
         {/** Buildings */}
-        { selection === 'SouthTerminal' && <SouthTerminal position={[ 16000, -5000, -10000 ]}/> }
+        {/* { selection === 'SouthTerminal' && <SouthTerminal position={[ 16000, -5000, -10000 ]}/> }
         { selection === 'ParkingGarage' && <ParkingGarage position={[ 5000, -5000, 0 ]}/> }
         { selection === 'MainTerminal' && <MainTerminal position={[ 8000, -5000, -15000 ]} rotation-y={ Math.PI * 0.5 } /> }
-
+        { selection === 'topography' && <AirportTopo position={[ 0, -3000, 0 ]}/> } */}
+        
+        <SouthTerminal position={[ 0, 0, 0 ]}/> 
+        <ParkingGarage position={[ 0, 0, 0 ]}/> 
+        <MainTerminal position={[ 0, 0, 0 ]} /> 
+        <AirportTopo position={[ 0, 0, 0 ]}/> 
 
     </>
 }
