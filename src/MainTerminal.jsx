@@ -14,11 +14,11 @@ export function MainTerminal(props) {
   //   envMapIntensity: 0.9,
   //   clearcoat: 1,
   //   transparent: true,
-  //   // transmission: .95,
+  //   transmission: .50,
   //   transmission: 0,
   //   opacity: 0.5,
   //   reflectivity: 0.2,
-  //   color: 'grey'
+  //   color: 'blue'
   // })
   const glass1 = new MeshStandardMaterial( { color: 'red', wireframe: true } )
 
