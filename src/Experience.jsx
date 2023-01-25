@@ -1,4 +1,4 @@
-
+import { MeshPhysicalMaterial, MeshStandardMaterial } from "three";
 import { Sky } from '@react-three/drei'
 import { OrbitControls } from '@react-three/drei'
 import { Perf } from 'r3f-perf'
@@ -21,6 +21,7 @@ export default function Experience()
                 'ParkingGarage',
                 'MainTerminal',
                 'topography',
+                // 'airport'
             ]
         } 
     })
@@ -34,21 +35,24 @@ export default function Experience()
         { /** lights. sky and ground plane */ }
         <Lights />
         <Sky distance={1000000} />
-        <mesh scale={ 100000 } rotation={[ -Math.PI * 0.5, 0, 0 ]} position={[ 0, -2000, 3000 ]} >
+        { selection !== 'topography' && <mesh scale={ 100000 } rotation={[ -Math.PI * 0.5, 0, 0 ]} position={[ 0, -2000, 3000 ]} >
            <planeGeometry/>
-           <mesh onClick={(e) => console.log(e.eventObject.userData.name)}StandardMaterial color={ '#aa8877' } />
-        </mesh>
+           <meshStandardMaterial color={ '#aa8877' } />
+        </mesh>}
 
         {/** Buildings */}
-        {/* { selection === 'SouthTerminal' && <SouthTerminal position={[ 16000, -5000, -10000 ]}/> }
+        { selection === 'SouthTerminal' && <SouthTerminal position={[ 16000, -5000, -10000 ]}/> }
         { selection === 'ParkingGarage' && <ParkingGarage position={[ 5000, -5000, 0 ]}/> }
         { selection === 'MainTerminal' && <MainTerminal position={[ 8000, -5000, -15000 ]} rotation-y={ Math.PI * 0.5 } /> }
-        { selection === 'topography' && <AirportTopo position={[ 0, -3000, 0 ]}/> } */}
-        
-        <SouthTerminal position={[ 0, 0, 0 ]}/> 
-        <ParkingGarage position={[ 0, 0, 0 ]}/> 
-        <MainTerminal position={[ 0, 0, 0 ]} /> 
-        <AirportTopo position={[ 0, 0, 0 ]}/> 
+        { selection === 'topography' && <AirportTopo position={[ 0, -3000, 0 ]}/> }
 
+        
+        {/* {selection === 'airport' && <>
+                <SouthTerminal position={[ 0, 0, 0 ]}/> 
+                <ParkingGarage position={[ 0, 0, 0 ]}/> 
+                <MainTerminal position={[ 0, 0, 0 ]} /> 
+                <AirportTopo position={[ 0, 0, 0 ]}/> 
+            </>
+        } */}
     </>
 }

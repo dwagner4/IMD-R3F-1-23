@@ -8,7 +8,8 @@ import { useGLTF } from "@react-three/drei";
 export function AirportTopo(props) {
   const { nodes, materials } = useGLTF("/S10_Only_Topo_2022_2_Gltf.glb");
   return (
-    <group {...props} dispose={null} scale={20} position={ [ 0, 2420, 0 ] }>
+    // <group {...props} dispose={null} scale={20} position={ [ 0, 2420, 0 ] }>
+    <group {...props} dispose={null} scale={20} position={ [ 0, -5000, 0 ] }>
       <mesh
         castShadow
         receiveShadow
