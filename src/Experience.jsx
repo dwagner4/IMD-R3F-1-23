@@ -2,7 +2,7 @@ import { MeshPhysicalMaterial, MeshStandardMaterial } from "three";
 import { Sky } from '@react-three/drei'
 import { OrbitControls } from '@react-three/drei'
 import { Perf } from 'r3f-perf'
-import { useControls } from 'leva'
+import { button, folder, useControls } from 'leva'
 
 import Lights from './Lights.jsx'
 import  { SouthTerminal } from './models/SouthTerminal.jsx'
@@ -26,35 +26,36 @@ import { Terminal2 } from './models/Terminal2.jsx'
 import { Terminal2Roadway } from './models/Terminal2Roadway.jsx'
 import { Trucks } from './models/Trucks.jsx'
 
+import { useThree } from "@react-three/fiber";
+
 
 export default function Experience()
 {
 
-    const { selection } = useControls('building', { selection:  
-        {options: 
+    const { selection } = useControls( 'Menu', { 
+        'View':  {options: 
             [
-                'airport',
-                'SouthTerminal', 
-                'ParkingGarage',
-                'MainTerminal',
-                'buildings',
-                'car agency',
-                'cargo planes',
-                'concourse D',
-                'fuel tanks',
-                'GTC',
-                'link station',
-                'north terminal',
-                'planes 1',
-                'planes 3',
-                'train tracks',
-                'terminal 2',
-                'roadway',
-                'trucks',
-                // 'airport',
+                'Aerial View',
+                'South Terminal', 
+                'Main Terminal',
+                'Inside S. Terminal 1',
+                'Inside S. Terminal 2',
             ]
-        } 
+        },
+        visibility: folder({
+            'topography': true,
+            'SouthTerminal': true,
+            'MainTerminal': true,
+            'NorthTerminal': true,
+            'Garage': true,
+        }),
+        Sequence: button(() => {console.log("Fuck you, bitch")})
     })
+
+    const { sequence } = useControls({
+
+    })
+
 
     return <>
 
@@ -65,57 +66,29 @@ export default function Experience()
         { /** lights. sky and ground plane */ }
         <Lights />
         <Sky distance={1000000} />
-        { selection !== 'airport' && <mesh scale={ 100000 } rotation={[ -Math.PI * 0.5, 0, 0 ]} position={[ 0, -2000, 3000 ]} >
-           <planeGeometry/>
-           <meshStandardMaterial color={ '#aa8877' } />
-        </mesh>}
-
-        {/** Buildings */}
-        {/* { selection === 'SouthTerminal' && <SouthTerminal position={[ 16000, -5000, -10000 ]}/> } */}
-        { selection === 'SouthTerminal' && <SouthTerminal position={[ 0, 0, 0 ]}/> }
-        { selection === 'ParkingGarage' && <ParkingGarage position={[ 0, 0, 0 ]}/> }
-        { selection === 'MainTerminal' && <MainTerminal position={[ 0, 0, 0 ]} rotation-y={ Math.PI * 0.5 } /> }
-        { selection === 'topography' && <AirportTopo position={[ 0, 0, 0 ]}/> }
-        { selection === 'buildings' && <BuildingMasses position={[ 0, 0, 0 ]} /> }
-        { selection === 'car agency' && <CarAgency position={[ 0, 0, 0 ]} /> }
-        { selection === 'cargo planes' && <CargoPlanes position={[ 0, 0, 0 ]} /> }
-        { selection === 'concourse D' && <ConcourseD position={[ 0, 0, 0 ]} /> }
-        { selection === 'fuel tanks' && <FuelTanks position={[ 0, 0, 0 ]} /> }
-        { selection === 'GTC' && <GTC position={[ 0, 0, 0 ]} /> }
-        { selection === 'Link station' && <LinkStation position={[ 0, 0, 0 ]} /> }
-
-        { selection === 'North Terminal' && <NorthTerminal position={[ 0, 0, 0 ]}/> }
-        { selection === 'planes 1' && <PlanesParked position={[ 0, 0, 0 ]}/> }
-        { selection === 'planes 3' && <Planes3 position={[ 0, 0, 0 ]}/> }
-
-        { selection === 'train tracks' && <TrainTracks Position={[ 0, 0, 0 ]} /> }
-        { selection === 'terminal 2' && <Terminal2 Position={[ 0, 0, 0 ]} /> }
-        { selection === 'roadway' && <Terminal2Roadway Position={[ 0, 0, 0 ]} /> }
-        { selection === 'trucks' && <Trucks Position={[ 0, 0, 0 ]} /> }
-
         
-        {selection === 'airport' && <>
-                <SouthTerminal position={[ 0, 0, 0 ]}/> 
-                <ParkingGarage position={[ 0, 0, 0 ]}/> 
-                <MainTerminal position={[ 0, 0, 0 ]} /> 
-                <AirportTopo position={[ 0, 0, 0 ]}/> 
-                <BuildingMasses position={[ 0, 0, 0 ]} />
-                <CarAgency position={[ 0, 0, 0 ]} />
-                <CargoPlanes position={[ 0, 0, 0 ]} />
-                <ConcourseD position={[ 0, 0, 0 ]} />
-                <FuelTanks position={[ 0, 0, 0 ]} />
-                <GTC position={[ 0, 0, 0 ]} />
-                <LinkStation position={[ 0, 0, 0 ]} />
 
-                <NorthTerminal position={[ 0, 0, 0 ]}/>
-                <PlanesParked position={[ 0, 0, 0 ]}/>
-                <Planes3 position={[ 0, 0, 0 ]}/>
 
-                <TrainTracks Position={[ 0, 0, 0 ]} />
-                <Terminal2 Position={[ 0, 0, 0 ]} />
-                <Terminal2Roadway Position={[ 0, 0, 0 ]} />
-                <Trucks Position={[ 0, 0, 0 ]} />
-            </>
-        }
+        <SouthTerminal position={[ 0, 0, 0 ]}/> 
+        <ParkingGarage position={[ 0, 0, 0 ]}/> 
+        <MainTerminal position={[ 0, 0, 0 ]} /> 
+        <AirportTopo position={[ 0, 0, 0 ]}/> 
+        <BuildingMasses position={[ 0, 0, 0 ]} />
+        <CarAgency position={[ 0, 0, 0 ]} />
+        <CargoPlanes position={[ 0, 0, 0 ]} />
+        <ConcourseD position={[ 0, 0, 0 ]} />
+        <FuelTanks position={[ 0, 0, 0 ]} />
+        <GTC position={[ 0, 0, 0 ]} />
+        <LinkStation position={[ 0, 0, 0 ]} />
+
+        <NorthTerminal position={[ 0, 0, 0 ]}/>
+        <PlanesParked position={[ 0, 0, 0 ]}/>
+        <Planes3 position={[ 0, 0, 0 ]}/>
+
+        <TrainTracks Position={[ 0, 0, 0 ]} />
+        <Terminal2 Position={[ 0, 0, 0 ]} />
+        <Terminal2Roadway Position={[ 0, 0, 0 ]} />
+        <Trucks Position={[ 0, 0, 0 ]} />
     </>
+   
 }
