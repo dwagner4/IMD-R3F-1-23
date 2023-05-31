@@ -46,15 +46,14 @@ export default function Experience()
          buildings,
          planes,
     }, set] = useControls(() => ( 'Menu', { 
-        // View:  {options: 
-        //     [
-        //         'Aerial View',
-        //         'South Terminal', 
-        //         'Main Terminal',
-        //         'Inside S. Terminal 1',
-        //         'Inside S. Terminal 2',
-        //     ]
-        // },
+        View:  {options: 
+            [
+                'Aerial View',
+                'South Terminal', 
+                'Main Terminal',
+                'Aerial 2',
+            ]
+        },
         Visibility: folder({
             'southTerminal': true,
             'mainTerminal': true,
@@ -161,20 +160,19 @@ export default function Experience()
         })
     }))
 
-    // const { camera } = useThree()
+    const { camera } = useThree()
 
 
-    // useEffect( () => {
-    //     if (View === 'Aerial View') { camera.position.set(1540, 1300, 477) }
-    //     if (View === 'South Terminal') { camera.position.set(-339, 263, -58) }
-    //     if (View === 'Main Terminal') { camera.position.set(-1030, 333, -232) }
-    //     if (View === 'Inside S. Terminal 1') { camera.position.set(-401, 128, 316) }
-    //     if (View === 'Inside S. Terminal 2') { camera.position.set(-432.9, 122.7, 331.4) }
+    useEffect( () => {
+        if (View === 'Aerial View') { camera.position.set(1540, 1300, 477) }
+        if (View === 'South Terminal') { camera.position.set(-400, 300, 800) }
+        if (View === 'Main Terminal') { camera.position.set(-1030, 333, -232) }
+        if (View === 'Aerial 2') { camera.position.set(-1000, 600, -3500) }
 
-    //     //         'Main Terminal',
-    //     //         'Inside S. Terminal 1',
-    //     //         'Inside S. Terminal 2',
-    // }, [View])
+        //         'Main Terminal',
+        //         'Inside S. Terminal 1',
+        //         'Inside S. Terminal 2',
+    }, [View])
 
     return <>
 

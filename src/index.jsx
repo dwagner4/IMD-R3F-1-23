@@ -6,6 +6,7 @@ import Experience from './Experience.jsx'
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
+    <>
     <Canvas
         shadows
         camera={ {
@@ -17,4 +18,8 @@ root.render(
     >
         <Experience />
     </Canvas>
+    <div id="nda">
+        <h5>Confidential / not for distribution</h5>
+    </div>
+    </>
 )
