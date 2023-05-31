@@ -1,8 +1,10 @@
+import { useEffect }from 'react'
 import { MeshPhysicalMaterial, MeshStandardMaterial } from "three";
 import { Sky } from '@react-three/drei'
 import { OrbitControls } from '@react-three/drei'
 import { Perf } from 'r3f-perf'
 import { button, folder, useControls } from 'leva'
+import { useThree } from "@react-three/fiber";
 
 import Lights from './Lights.jsx'
 import  { SouthTerminal } from './models/SouthTerminal.jsx'
@@ -26,36 +28,153 @@ import { Terminal2 } from './models/Terminal2.jsx'
 import { Terminal2Roadway } from './models/Terminal2Roadway.jsx'
 import { Trucks } from './models/Trucks.jsx'
 
-import { useThree } from "@react-three/fiber";
 
 
 export default function Experience()
 {
 
-    const { selection } = useControls( 'Menu', { 
-        'View':  {options: 
-            [
-                'Aerial View',
-                'South Terminal', 
-                'Main Terminal',
-                'Inside S. Terminal 1',
-                'Inside S. Terminal 2',
-            ]
-        },
-        visibility: folder({
-            'topography': true,
-            'SouthTerminal': true,
-            'MainTerminal': true,
-            'NorthTerminal': true,
-            'Garage': true,
-        }),
-        Sequence: button(() => {console.log("Fuck you, bitch")})
-    })
+    const [{
+         View, 
+         garage,
+         southTerminal,
+         mainTerminal,
+         northTerminal,
+         gtc,
+         terminal2,
+         concourseD,
+         t2roadway,
+         buildings,
+         planes,
+    }, set] = useControls(() => ( 'Menu', { 
+        // View:  {options: 
+        //     [
+        //         'Aerial View',
+        //         'South Terminal', 
+        //         'Main Terminal',
+        //         'Inside S. Terminal 1',
+        //         'Inside S. Terminal 2',
+        //     ]
+        // },
+        Visibility: folder({
+            'southTerminal': true,
+            'mainTerminal': true,
+            'northTerminal': true,
+            'gtc': true,
+            'garage': true,
+            'terminal2': true,
+            'concourseD': true,
+            't2roadway': true,
+            'buildings': true,
+            'planes': true,
+        }, {collapsed: true}),
+        Sequence: button( () => {
+            set({ 
+                'southTerminal': false,
+                'mainTerminal': true,
+                'northTerminal': true,
+                'gtc': false,
+                'garage': true,
+                'terminal2': false,
+                'concourseD': false,
+                't2roadway': false,
+                'buildings': false,
+                'planes': false,
+            })
+            setTimeout(() => {
+                set({ 
+                    'southTerminal': true,
+                    'mainTerminal': true,
+                    'northTerminal': true,
+                    'gtc': false,
+                    'garage': true,
+                    'terminal2': false,
+                    'concourseD': true,
+                    't2roadway': false,
+                    'buildings': false,
+                    'planes': false,
+                })}, 2000 )
+            setTimeout(() => {
+                set({ 
+                    'southTerminal': true,
+                    'mainTerminal': true,
+                    'northTerminal': true,
+                    'gtc': true,
+                    'garage': true,
+                    'terminal2': false,
+                    'concourseD': true,
+                    't2roadway': false,
+                    'buildings': false,
+                    'planes': false,
+                })}, 4000 )
+            setTimeout(() => {
+                set({ 
+                    'southTerminal': true,
+                    'mainTerminal': true,
+                    'northTerminal': true,
+                    'gtc': true,
+                    'garage': true,
+                    'terminal2': false,
+                    'concourseD': true,
+                    't2roadway': true,
+                    'buildings': false,
+                    'planes': false,
+                })}, 6000 )
+            setTimeout(() => {
+                set({ 
+                    'southTerminal': true,
+                    'mainTerminal': true,
+                    'northTerminal': true,
+                    'gtc': true,
+                    'garage': true,
+                    'terminal2': true,
+                    'concourseD': true,
+                    't2roadway': true,
+                    'buildings': false,
+                    'planes': false,
+                })}, 8000 )
+            setTimeout(() => {
+                set({ 
+                    'southTerminal': true,
+                    'mainTerminal': true,
+                    'northTerminal': true,
+                    'gtc': true,
+                    'garage': true,
+                    'terminal2': true,
+                    'concourseD': true,
+                    't2roadway': true,
+                    'buildings': true,
+                    'planes': false,
+                })}, 10000 )
+            setTimeout(() => {
+                set({ 
+                    'southTerminal': true,
+                    'mainTerminal': true,
+                    'northTerminal': true,
+                    'gtc': true,
+                    'garage': true,
+                    'terminal2': true,
+                    'concourseD': true,
+                    't2roadway': true,
+                    'buildings': true,
+                    'planes': true,
+                })}, 12000 )
+        })
+    }))
 
-    const { sequence } = useControls({
+    // const { camera } = useThree()
 
-    })
 
+    // useEffect( () => {
+    //     if (View === 'Aerial View') { camera.position.set(1540, 1300, 477) }
+    //     if (View === 'South Terminal') { camera.position.set(-339, 263, -58) }
+    //     if (View === 'Main Terminal') { camera.position.set(-1030, 333, -232) }
+    //     if (View === 'Inside S. Terminal 1') { camera.position.set(-401, 128, 316) }
+    //     if (View === 'Inside S. Terminal 2') { camera.position.set(-432.9, 122.7, 331.4) }
+
+    //     //         'Main Terminal',
+    //     //         'Inside S. Terminal 1',
+    //     //         'Inside S. Terminal 2',
+    // }, [View])
 
     return <>
 
@@ -69,26 +188,26 @@ export default function Experience()
         
 
 
-        <SouthTerminal position={[ 0, 0, 0 ]}/> 
-        <ParkingGarage position={[ 0, 0, 0 ]}/> 
-        <MainTerminal position={[ 0, 0, 0 ]} /> 
+        {southTerminal && <SouthTerminal position={[ 0, 0, 0 ]}/>} 
+        {garage && <ParkingGarage position={[ 0, 0, 0 ]}/>} 
+        {mainTerminal && <MainTerminal position={[ 0, 0, 0 ]} />}
         <AirportTopo position={[ 0, 0, 0 ]}/> 
-        <BuildingMasses position={[ 0, 0, 0 ]} />
+        {buildings && <BuildingMasses position={[ 0, 0, 0 ]} />}
         <CarAgency position={[ 0, 0, 0 ]} />
-        <CargoPlanes position={[ 0, 0, 0 ]} />
-        <ConcourseD position={[ 0, 0, 0 ]} />
-        <FuelTanks position={[ 0, 0, 0 ]} />
-        <GTC position={[ 0, 0, 0 ]} />
+        {planes && <CargoPlanes position={[ 0, 0, 0 ]} />}
+        {concourseD && <ConcourseD position={[ 0, 0, 0 ]} />}
+        {buildings && <FuelTanks position={[ 0, 0, 0 ]} />}
+        {gtc && <GTC position={[ 0, 0, 0 ]} />}
         <LinkStation position={[ 0, 0, 0 ]} />
 
-        <NorthTerminal position={[ 0, 0, 0 ]}/>
-        <PlanesParked position={[ 0, 0, 0 ]}/>
-        <Planes3 position={[ 0, 0, 0 ]}/>
+        {northTerminal && <NorthTerminal position={[ 0, 0, 0 ]}/>}
+        {planes && <PlanesParked position={[ 0, 0, 0 ]}/>}
+        {planes && <Planes3 position={[ 0, 0, 0 ]}/>}
 
         <TrainTracks Position={[ 0, 0, 0 ]} />
-        <Terminal2 Position={[ 0, 0, 0 ]} />
-        <Terminal2Roadway Position={[ 0, 0, 0 ]} />
-        <Trucks Position={[ 0, 0, 0 ]} />
+        {terminal2 && <Terminal2 Position={[ 0, 0, 0 ]} />}
+        {t2roadway && <Terminal2Roadway Position={[ 0, 0, 0 ]} />}
+        {buildings && <Trucks Position={[ 0, 0, 0 ]} />}
     </>
    
 }
